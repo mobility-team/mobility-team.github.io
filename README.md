@@ -4,5 +4,7 @@ L'outil est principalement développé par [AREP](https://arep.fr) et [Elioth](h
 Pour l'instant, la solution est centrée sur les territoires et les données françaises.
 
 <div class="get-started-wrap">
-  <a class="btn btn-success btn-lg get-started-btn" href="https://github.com/mobility-team/mobility">Get Started!</a>
+  <a class="btn btn-success btn-lg get-started-btn" href="https://github.com/mobility-team/mobility">Accéder au code</a>
 </div>
+
+## Posts
