@@ -15,57 +15,49 @@ Chaque personne participant à l’enquête devait répondre à des questions re
 
 De manière similaire, la répartition des trajets par catégorie urbaine (R, I, B, C)[^2], par mode de transport et motif de déplacement est assez proche entre les deux enquêtes. Néanmoins, le même graphique que précédemment en absolu donne un écart conséquent entre les deux enquêtes :
 
-![image](https://user-images.githubusercontent.com/19514464/233442337-401dd98c-0ad8-4049-b98f-08cee4d184ec.png)
-
+![image](https://user-images.githubusercontent.com/19514464/233442337-401dd98c-0ad8-4049-b98f-08cee4d184ec.png)<br>
 *Figure 2 : nombre de trajets quotidiens par catégorie socio-professionnelle*
 
 Ce graphique montre que la base de données de 2008 possède beaucoup plus de trajets que celle de 2019 pour les trajets de courte distance (environ 3 fois plus). 
 
-![image](https://user-images.githubusercontent.com/19514464/233442535-caa872ca-0100-4072-b778-d2ff0e0b035b.png)
-
+![image](https://user-images.githubusercontent.com/19514464/233442535-caa872ca-0100-4072-b778-d2ff0e0b035b.png)<br>
 *Figure 3 : répartition des trajets quotidiens par mode*
 
 La répartition des trajets en fonction des modes de déplacement met en évidence un léger recul de l’automobile au profit de la marche et des transports en communs pour les déplacements de courte distance. Même si la base de données de 2008 est plus fournie, il semble plus intéressant de se baser sur celle de 2019 pour prendre en compte ces évolutions de la mobilité.
 
 ## Indicateurs mobilité
 Par la suite, nous avons voulu caractériser plus en détail la mobilité des Français avec un ensemble d’indicateurs. Nous avons commencé par étudier la distance moyenne par trajet, qui est assez homogène entre 2008 et 2019 pour les trajets quotidiens, que ce soit en fonction de la catégorie urbaine ou de la catégorie socio-professionnelle.
-![image](https://user-images.githubusercontent.com/19514464/233442800-5fcf0da1-da4b-4cad-bdfa-44346d3bd4f0.png)
+![image](https://user-images.githubusercontent.com/19514464/233442800-5fcf0da1-da4b-4cad-bdfa-44346d3bd4f0.png)<br>
 *Figure 4 : distance moyenne par trajet quotidien*
 
 Pour les trajets de longue distance, on peut noter des distances moyennes plus importantes en 2019 (340 km par trajet pour 2008 contre plus de 410 km par trajet pour 2019).
 
-![image](https://user-images.githubusercontent.com/19514464/233443631-785c1b7f-a779-4197-899e-543cea2bbd19.png)
-
+![image](https://user-images.githubusercontent.com/19514464/233443631-785c1b7f-a779-4197-899e-543cea2bbd19.png)<br>
 *Figure 5 : distance moyenne par trajet longue distance*
 
 Pour les déplacements quotidiens, le Français moyen parcourt environ 30 km/jour (30,8 pour 2008 et 31 pour 2019). L’utilisation de la voiture est encore très importante pour les déplacements quotidiens et représente plus de 84 % de la part modale. On peut tout de même observer un léger report modal de la voiture vers les transports en commun notamment.
 
-![image](https://user-images.githubusercontent.com/19514464/233443752-86651c96-6aeb-452f-9fcf-a91122e4d99c.png)
-
+![image](https://user-images.githubusercontent.com/19514464/233443752-86651c96-6aeb-452f-9fcf-a91122e4d99c.png)<br>
 *Figure 6 : distance journalière moyenne par mode*
 
 On peut également filtrer nos bases de données pour uniquement calculer les distances quotidiennes pour une certaine catégorie urbaine, catégorie socio-professionnelle, ou si on est en semaine ou le week-end. Par exemple, en milieu rural, la voiture est, comme pressenti, prépondérante et les distances quotidiennes sont plus élevées qu’en centre-ville (plus de 15 km de différence chaque jour).
 
-![image](https://user-images.githubusercontent.com/19514464/233443931-9ce20ba0-caf2-467f-b9f7-51eebc63ddae.png)
-
+![image](https://user-images.githubusercontent.com/19514464/233443931-9ce20ba0-caf2-467f-b9f7-51eebc63ddae.png)<br>
 *Figure 7 : comparaison de la mobilité quotidienne entre milieu rural (gauche) et centre-ville (droite)*
 
 Il est également possible de tracer les distances quotidiennes en fonction des motifs de déplacement en ayant encore la possibilité de filtrer les bases de données pour restreindre l’étude. Par exemple, les graphiques ci-dessous présentent les distances moyennes journalière en fonction des motifs de déplacement, pour un jour de semaine et un jour du week-end. Ils mettent en évidence les différences d’activités entre la semaine et le week-end et leur part en termes de distance journalière.
 
-![image](https://user-images.githubusercontent.com/19514464/233444064-0184c494-f1e1-4e08-923b-a17d599a86ca.png)
-
+![image](https://user-images.githubusercontent.com/19514464/233444064-0184c494-f1e1-4e08-923b-a17d599a86ca.png)<br>
 *Figure 8 : distance journalière moyenne un jour de semaine ou de week-end*
 
 Il est également intéressant de comparer les taux de remplissage des voitures en fonction des motifs de déplacement. Tous motifs confondus, le taux de remplissage est proche de 1,9. On peut remarquer que le covoiturage s’est peu développé en 10 ans pour les déplacements domicile/travail, avec des taux de remplissage proches de 1 mettant en lumière l’importance de l’autosolisme des déplacements pendulaires. 
 
-![image](https://user-images.githubusercontent.com/19514464/233444186-76cb5936-2050-4859-a45e-b3651638be89.png)
-
+![image](https://user-images.githubusercontent.com/19514464/233444186-76cb5936-2050-4859-a45e-b3651638be89.png)<br>
 *Figure 9 : taux de remplissage moyen des voitures des déplacements quotidiens*
 
 L’outil permet enfin de tracer les distances et émissions moyennes par trajet (courte distance) en fonction du motif de déplacement. Pour cela, nous avons affecté à chaque mode de déplacement un facteur d’émission en kgCO2e/passager.km. 
 
-![image](https://user-images.githubusercontent.com/19514464/233444335-e0931e8e-4d19-4694-9270-513334a2ff06.png)
-
+![image](https://user-images.githubusercontent.com/19514464/233444335-e0931e8e-4d19-4694-9270-513334a2ff06.png)<br>
 *Figure 10 : émission de GES moyenne par déplacement quotidien*
 
 Les variations d’émissions pour chaque motif relativement aux distances peuvent s’expliquer par la répartition modale de chaque motif ainsi que les différents taux de remplissages des voitures. On voit notamment que plus de 70 % des déplacements domicile-travail s’effectuent en voiture, avec un taux de remplissage faible expliquant l’émission moyenne relativement élevée. En comparaison, les déplacements de motif « Vacances » sont en moyenne plus élevés en distance mais émettent moins que les déplacements domicile-travail. On peut l’expliquer notamment par un taux de remplissage plus élevé (proche de 2 personnes par voiture).
@@ -94,5 +86,9 @@ Pour aller plus loin, les articles suivants analysent d’autres indicateurs com
    * 1.11 : Porté, transporté en poussette
    * 1.12 : Rollers, trottinette
    * 1.13 : Fauteuil roulant (y compris motorisé)
+
+[^1]: Service des Données et Etudes Statistiques du Ministère de la Transition Ecologique
+
+[^2]: La classification RIBC de l’INSEE répartit les villes en quatre catégories, en fonction de leur unité urbaine d’appartenance (Rurale, Isolée, Banlieue, Centre)
 
 
