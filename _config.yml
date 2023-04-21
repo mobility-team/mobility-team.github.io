@@ -7,3 +7,4 @@ description: Mobility is an open-source solution to compute the carbon emissions
 remote_theme: daattali/beautiful-jekyll@5.0.0
 
 avatar: "logo.png"
+round-avatar: false
