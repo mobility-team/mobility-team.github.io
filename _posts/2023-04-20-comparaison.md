@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'ENTD 2008 / EMP 2019 : comparaison des bases de données de mobilité'
+subtitle: 'Par Arthur Haulon'
 date: '2023-04-20 13:37:42 +0200'
 ---
 
