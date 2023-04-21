@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'ENTD 2008 / EMP 2019 : comparaison des bases de données de mobilité'
+subtitle: 'Par Arthur Haulon'
 date: '2023-04-20 13:37:42 +0200'
 ---
 
@@ -76,7 +77,7 @@ Pour aller plus loin, les articles suivants analysent d’autres indicateurs com
 * Le code Python utilisé est disponible [en opensource](https://github.com/mobility-team/mobility/tree/main/examples/compare_db) au sein de la librairie [Mobility](https://github.com/mobility-team/mobility)
 * Pour en savoir plus sur la méthodologie de l’enquête : [Enquête sur la mobilité des personnes 2018-2019](https://www.statistiques.developpement-durable.gouv.fr/enquete-sur-la-mobilite-des-personnes-2018-2019)
 * Les données utilisées proviennent des tables des trajets courts et trajets longs des deux enquêtes. Plusieurs types de pondérations sont inclus dans l’enquête permettant de disposer de différents niveaux de représentativité : les pondérations relatives à la population (ménages et individus) et les pondérations relatives aux variables de l’enquête (déplacements, voyages, véhicules).
-* L’unité urbaine est définie comme la « commune ou ensemble de communes présentant une zone de bâti continu (pas de coupure de plus de 200 mètres entre deux constructions) qui compte au moins 2 000 habitants » (INSEE. (2022, 18 mars). Base des unités urbaines 2020 | Insee).<br> La classification RIBC de l’INSEE répartit les villes en quatre catégories, en fonction de leur unité urbaine d’appartenance :
+* L’unité urbaine est définie comme la « commune ou ensemble de communes présentant une zone de bâti continu (pas de coupure de plus de 200 mètres entre deux constructions) qui compte au moins 2 000 habitants ».<br> La classification RIBC de l’INSEE répartit les villes en quatre catégories, en fonction de leur unité urbaine d’appartenance :
    * Rurale : commune n’appartenant à aucune unité urbaine.
    * Isolée : commune étant seule au sein de son unité urbaine.
    * Centre et Banlieue : communes appartenant à une unité urbaine composées de plusieurs communes. L’unité urbaine est alors dénommée « agglomération multicommunale ». La distinction entre Centre et Banlieue se fait selon la taille relative de population au sein de la commune. Ainsi, « si une commune représente plus de 50 % de la population de l'agglomération multicommunale, elle est seule ville-centre. Sinon, toutes les communes qui ont une population supérieure à 50 % de celle de la commune la plus peuplée, ainsi que cette dernière, sont villes-centres. Les communes urbaines qui ne sont pas villes-centres constituent la banlieue de l'agglomération multicommunale. ».
